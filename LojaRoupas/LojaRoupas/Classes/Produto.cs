@@ -19,6 +19,7 @@ namespace LojaRoupas.Classes
         */
 
         private int    idProduto;
+        private int    codProduto;
         private string descProduto;
         private string corProduto;
         private string tamProduto;
@@ -36,6 +37,16 @@ namespace LojaRoupas.Classes
         public void setIdProduto(int idProduto)
         {
             this.idProduto = idProduto;
+        }
+
+        public int getCodProduto()
+
+        {
+            return this.codProduto;
+        }
+        public void setCodProduto(int codProduto)
+        {
+            this.codProduto = codProduto;
         }
 
         public string getDescProduto()
