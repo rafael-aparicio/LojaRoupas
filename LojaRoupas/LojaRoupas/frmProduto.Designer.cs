@@ -47,8 +47,8 @@
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnSalvar = new System.Windows.Forms.Button();
+            this.btnCancelar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -231,27 +231,27 @@
             this.label10.TabIndex = 17;
             this.label10.Text = "CADASTRO DE PRODUTO";
             // 
-            // button1
+            // btnSalvar
             // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.Color.BurlyWood;
-            this.button1.Location = new System.Drawing.Point(451, 178);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(118, 55);
-            this.button1.TabIndex = 18;
-            this.button1.Text = "SALVAR";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnSalvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSalvar.ForeColor = System.Drawing.Color.BurlyWood;
+            this.btnSalvar.Location = new System.Drawing.Point(451, 178);
+            this.btnSalvar.Name = "btnSalvar";
+            this.btnSalvar.Size = new System.Drawing.Size(118, 55);
+            this.btnSalvar.TabIndex = 18;
+            this.btnSalvar.Text = "SALVAR";
+            this.btnSalvar.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnCancelar
             // 
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.ForeColor = System.Drawing.Color.BurlyWood;
-            this.button2.Location = new System.Drawing.Point(575, 178);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(118, 55);
-            this.button2.TabIndex = 19;
-            this.button2.Text = "CANCELAR";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancelar.ForeColor = System.Drawing.Color.BurlyWood;
+            this.btnCancelar.Location = new System.Drawing.Point(575, 178);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(118, 55);
+            this.btnCancelar.TabIndex = 19;
+            this.btnCancelar.Text = "CANCELAR";
+            this.btnCancelar.UseVisualStyleBackColor = true;
             // 
             // frmProduto
             // 
@@ -260,8 +260,8 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(724, 264);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnCancelar);
+            this.Controls.Add(this.btnSalvar);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.textBox7);
@@ -281,7 +281,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Sylfaen", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmProduto";
             this.Text = "Cadastro de Produto";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -310,7 +310,7 @@
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnSalvar;
+        private System.Windows.Forms.Button btnCancelar;
     }
 }
